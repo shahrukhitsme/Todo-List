@@ -1,0 +1,62 @@
+.listItem{
+    margin: 2%;
+    width: -webkit-fill-available;
+    height: 64px;
+    text-align: left;
+    /* padding-top: 11px; */
+    /* padding-bottom: 10px; */
+    padding-left: 18px;
+    background-color: #0f3e59;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.listItem:hover {
+    cursor: pointer;
+}
+
+.listItem:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+blockquote{
+    margin: 19px -5px;
+    padding-left: 11px;
+    border-left: 5px solid #e1ffe2;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+#titleColumn{
+    padding: 0px;
+    width: 92%;
+    display: inline-block;
+    position: relative;
+}
+
+#deleteBtnColumn{
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+}
+
+#deleteBtn{
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: #0f3e59;
+    box-shadow: 2px 6px 13px 4px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-width: thin;
+    padding-bottom: 5px;
+    width: 38px;
+}
+
+#deleteBtn:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}

@@ -1,0 +1,82 @@
+#textArea{
+    background-color: #0f3e59;
+    position: absolute;
+    height: 76%;
+    width: 33%;
+    left: 57%;
+    top: 12%;
+    border-radius: 10px;
+    color: black !important;
+}
+
+tr{
+    border-bottom:none;
+}
+
+#saveBtn{
+    right: 18px;
+    position: absolute;
+    bottom: 12px;
+    background-color: #0f3e59 !important;
+    box-shadow: 2px 6px 13px 4px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-width: thin;
+}
+
+#saveBtn:active{
+    box-shadow: none;
+    transform: translateY(4px);
+    box-shadow: none;
+    border-style: none;
+}
+
+#cancelBtn{
+    left: 18px;
+    position: absolute;
+    bottom: 12px;
+    background-color: #0f3e59 !important;
+    box-shadow: 2px 6px 13px 4px rgba(0,0,0,0.5);    
+    border-style: solid;
+    border-width: thin;
+}
+
+#cancelBtn:active{
+    box-shadow: none;
+    transform: translateY(4px);
+    box-shadow: none;
+    border-style: none;
+}
+
+#body{
+    color:white;
+    max-height: 517px;
+    overflow-Y: scroll;
+    resize: none;
+}
+
+#title{
+    color: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }

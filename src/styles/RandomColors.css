@@ -1,0 +1,8 @@
+#colour-changer {
+    width:200px;
+    height:100px;
+    margin:30px auto;
+    -webkit-transition:background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+    transition:background-color 0.7s;
+  }
